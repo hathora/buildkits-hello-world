@@ -1,4 +1,7 @@
 import { HathoraClient } from "@hathora/client-sdk";
+import * as dotenv from "dotenv";
+
+dotenv.config();
 
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
