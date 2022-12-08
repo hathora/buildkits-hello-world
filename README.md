@@ -12,7 +12,7 @@ APP_ID=<appId>
 After setting everything up, you can issue any of the following NPM commands:
 
 ```bash
-npm run client # Starts the client only
 npm run server # Starts the server only
+npm run client # Starts the client only
 npm run all # Concurrently runs the server and client as one
 ```
