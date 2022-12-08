@@ -1,4 +1,7 @@
 import { register } from "@hathora/server-sdk";
+import * as dotenv from "dotenv";
+
+dotenv.config();
 
 const coordinator = await register({
   appSecret: process.env.APP_SECRET!,
